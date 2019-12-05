@@ -16,4 +16,4 @@ Challenges:
 
 I found it difficult to keep up with Wes as he explains things quite quickly, and some of the ES6 JS syntax he was using
 was less familiar to me. Kept relistening to sections to get a clearer understanding though. Made note to study ES6 template
-strings.
+strings re. embedding expressions.
