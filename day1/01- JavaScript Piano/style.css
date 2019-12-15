@@ -1,6 +1,6 @@
 html {
   font-size: 10px;
-  background: url('https://images.pexels.com/photos/995301/pexels-photo-995301.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') bottom center;
+  background: url('https://images.pexels.com/photos/586415/pexels-photo-586415.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') bottom center;
   background-size: cover;
 }
 
@@ -19,17 +19,11 @@ body,html {
 }
 
 .key {
-  border: .4rem solid black;
-  border-radius: .5rem;
-  margin: 1rem;
   font-size: 1.5rem;
   padding: 1rem .5rem;
   transition: all .3s ease;
-  width: 10rem;
+  border: 1px black solid;
   text-align: center;
-  color: white;
-  background: rgba(0,0,0,0.4);
-  text-shadow: 0 0 .5rem black;
 }
 
 .playing {
@@ -50,6 +44,20 @@ kbd {
   color: #ffc600;
 }
 
+.key.natural{
+  background-color: white;
+  height: 30vh;
+  width: 4rem;
+  z-index: 0;
+}
+
 .key.flat {
   color: red;
+  height: 18vh;
+  background-color: black;
+  width: 2rem;
+  z-index: 1;
+  margin-bottom: 7.8rem;
+  margin-left: -17px;
+  margin-right: -17px;
 }
